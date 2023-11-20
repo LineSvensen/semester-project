@@ -18,6 +18,10 @@ Ultimately, the project aims to deliver a seamless website that not only meets f
 requirements but also captivates visitors with an inviting and educational online 
 experience. 
 
+🌟 Features 
+- In progress
+
+
 Enjoy! Feel free to contact me if you have questions or are interessted in my work :-)
 
 BR, Line

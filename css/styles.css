@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --text-color: #2D2D2D;
+    --cta-light-purple: #BB429F;
+    --hover-light-purple: #DC6CC2;
+    --click-light-purple: #842F70;
+    --cta-orange: #FF8A00;
+    --hover-orange: #FFB258;
+    --click-orange: #E57C00;
+    --footer-color: #EBD3F7;
+    --background-white: #FFFFFF;
+}
+
+.logo img {
+    display: block;
+    height: 102px;
+    padding-left: 112px;
+}
+
+li a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background: var(--background-white);
+    padding: 0 24px;
+    transition: 0.3s;
+}

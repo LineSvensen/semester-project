@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fa1eb06f-3f74-4d23-a686-cf9041ca9ffe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "nav-bar-for-all-pages",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/lines/OneDrive/Documents/Repos/ca-html-css",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -67,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700161719868</updated>
       <workItem from="1700161720915" duration="67000" />
-      <workItem from="1701864276239" duration="13676000" />
+      <workItem from="1701864276239" duration="14974000" />
     </task>
     <servers />
   </component>

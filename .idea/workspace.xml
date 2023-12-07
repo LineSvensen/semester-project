@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa1eb06f-3f74-4d23-a686-cf9041ca9ffe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/3225185_app_logo_media_popular_snapchat_icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/3225191_app_instagram_logo_media_popular_icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/3225194_app_facebook_logo_media_popular_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +67,7 @@
       <updated>1700161719868</updated>
       <workItem from="1700161720915" duration="67000" />
       <workItem from="1701864276239" duration="14974000" />
-      <workItem from="1701968692256" duration="9840000" />
+      <workItem from="1701968692256" duration="11586000" />
     </task>
     <servers />
   </component>

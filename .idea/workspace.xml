@@ -6,22 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="fa1eb06f-3f74-4d23-a686-cf9041ca9ffe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/cart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/events.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/events.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/ourstory.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ourstory.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/registermail.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/registermail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/success.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/success.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/theexperience.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theexperience.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/tickets.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/tickets.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/events.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ourstory.html" beforeDir="false" afterPath="$PROJECT_DIR$/ourstory.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registermail.html" beforeDir="false" afterPath="$PROJECT_DIR$/registermail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/success.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/theexperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/theexperience.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tickets.html" beforeDir="false" afterPath="$PROJECT_DIR$/tickets.html" afterDir="false" />
     </list>
@@ -53,22 +40,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;footer-for-all-pages&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lines/OneDrive/Documents/Repos/ca-html-css&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "index-page",
+    "last_opened_file_path": "C:/Users/lines/OneDrive/Documents/Repos/ca-html-css",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lines\OneDrive\Documents\Repos\semester-project" />
@@ -85,7 +72,7 @@
       <workItem from="1700161720915" duration="67000" />
       <workItem from="1701864276239" duration="14974000" />
       <workItem from="1701968692256" duration="12181000" />
-      <workItem from="1702144241868" duration="3100000" />
+      <workItem from="1702144241868" duration="4428000" />
     </task>
     <servers />
   </component>

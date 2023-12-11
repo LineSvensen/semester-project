@@ -38,6 +38,7 @@ header {
     position: relative;
     justify-content: space-between;
     width: 100%;
+    height: 112px;
     align-items: center;
     background: var(--background-white);
     padding-right: 112px;
@@ -75,7 +76,7 @@ header {
 }
 
 .menu li a:hover {
-    box-shadow: 0 -2px 0 var(--cta-purple) inset;
+    box-shadow: 0 -4px 0 var(--cta-purple) inset;
 }
 
 .hamburger {
@@ -148,6 +149,41 @@ header {
     background-image: url("../assets/hero-desktop.png");
     height: 400px;
     background-size: cover;
+    padding: 80px 0 0 220px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.hero-text p {
+    padding: 20px 0 20px 0;
+    font-size: 20px;
+}
+
+.hero-text {
+    color: var(--background-white);
+    text-align: center;
+    width: 489px;
+}
+
+.btn-get-tickets {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 20px 0 62px 165px;
+    background-color: var(--cta-purple);
+    border: none;
+    border-radius: 8px;
+    width: 159px;
+    height: 62px;
+    font-size: 20px;
+    color: var(--background-white);
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    cursor: pointer;
 }
 
 .main {
@@ -204,6 +240,7 @@ header {
     color: var(--cta-purple);
     cursor: pointer;
     background-color: transparent;
+    letter-spacing: 0.4px;
 }
 
 .btn-learn-more:hover {
@@ -462,7 +499,7 @@ footer {
 
 }
 
-@media (max-width: 487px) and (min-width: 335px) {
+@media (min-width: 335px) and (max-width: 487px) {
 
     .main {
         height: 1202px;
@@ -526,6 +563,22 @@ footer {
 
 }
 
+@media (max-width: 515px) {
+
+    .main {
+        height: 1695px;
+    }
+
+}
+
+@media (min-width: 515px) and (max-width: 773px) {
+
+    .main {
+        height: 1180px;
+    }
+
+}
+
 @media (max-width: 781px) {
 
     .hero-banner {
@@ -533,17 +586,19 @@ footer {
         background-size: contain;
         background-repeat: no-repeat;
     }
+
 }
 
-@media (max-width: 820px) and (min-width: 450px) {
+@media (min-width: 450px) and (max-width: 820px) {
+
     .so-media-icons {
         padding: 0 150px 0 150px;
         grid-area: middle;
     }
+
 }
 
 @media (max-width: 820px) {
-
 
     footer {
         width: 100%;
@@ -594,21 +649,72 @@ footer {
         flex-wrap: wrap;
     }
 
-    .main {
-        height: 1695px;
-    }
-
     .footer {
         flex-wrap: wrap;
     }
 
 }
 
-@media (max-width: 983px) and (min-width: 781px) {
+@media (min-width: 780px) and (max-width: 908px) {
+    .hero-text {
+        width: 300px;
+    }
+
+    .hero-text h1{
+        padding-bottom: 0;
+        padding-top: 24px;
+        font-size: 32px;
+    }
+
+    .hero-text p {
+        padding-top: 8px;
+        font-size: 16px;
+    }
+
+    .btn-get-tickets {
+        margin-left: 68px;
+    }
+
+    .hero-banner {
+        padding: 76px 750px 50px 155px;
+    }
+}
+
+
+/*@media (max-width: 975px) and (min-width: 781px) {*/
+
+/*    .hero-banner {*/
+/*        padding: 50px 500px 50px 147px;*/
+/*    }*/
+
+/*}*/
+
+@media (min-width: 781px) and (max-width: 983px) {
 
     .hero-banner {
         background-image: url("../assets/hero-tablet.png");
+        padding: 50px 500px 50px 180px;
     }
+
+    .hero-text {
+        width: 280px;
+    }
+
+    .hero-text h1{
+        padding-bottom: 0;
+        padding-top: 44px;
+        font-size: 36px;
+    }
+
+    .hero-text p {
+        padding-top: 8px;
+        font-size: 16px;
+    }
+
+    .btn-get-tickets {
+        margin: 0 0 62px 60px;
+    }
+
 }
 
 @media (max-width: 1030px) {
@@ -653,26 +759,67 @@ footer {
 
 }
 
-@media (max-width: 1100px) and (min-width: 983px){
+@media (min-width: 983px) and (max-width: 1168px) {
 
     .hero-banner {
         background-image: url("../assets/hero-desktop-xs.png");
     }
-
-}
-
-@media (max-width: 1100px) and (min-width: 983px) {
 
     .menu li a {
         padding: 16px;
     }
+
+    .hero-text {
+        width: 400px;
+    }
+
+    .hero-text h1{
+        padding-bottom: 0;
+        padding-top: 24px;
+        font-size: 36px;
+    }
+
+    .hero-text p {
+        padding-top: 8px;
+    }
+
+    .btn-get-tickets {
+        margin: 8px 0 62px 114px;
+    }
+
 }
 
-@media (max-width: 1168px) and (min-width: 1100px) {
+/*@media (max-width: 1168px) and (min-width: 983px) {*/
 
-    .menu li a {
-        padding: 44px 32px 44px 32px;
-    }
+/*    .menu li a {*/
+/*        padding: 44px 32px 44px 32px;*/
+/*    }*/
+
+/*    .hero-text {*/
+/*        width: 400px;*/
+/*    }*/
+
+/*    .hero-text h1{*/
+/*        padding-bottom: 0;*/
+/*        padding-top: 24px;*/
+/*        font-size: 36px;*/
+/*    }*/
+
+/*    .hero-text p {*/
+/*        padding-top: 8px;*/
+/*    }*/
+
+/*    .btn-get-tickets {*/
+/*        margin: 8px 0 62px 114px;*/
+/*    }*/
+
+/*}*/
+
+@media (min-width: 1100px) and (max-width: 1168px) {
+
+    /*.menu li a {*/
+    /*    padding: 44px 32px 44px 32px;*/
+    /*}*/
 
     .hero-banner {
         background-image: url("../assets/hero-desktop-xs.png");
@@ -680,7 +827,18 @@ footer {
 
 }
 
-@media (max-width: 1322px) and (min-width: 1168px) {
+@media (min-width: 1168px) and (max-width: 1322px) {
+
+    .hero-text {
+
+        width: 400px;
+    }
+
+    .btn-get-tickets {
+
+        margin: 20px 0 62px 114px;
+
+    }
 
     .menu li a {
         padding: 44px 32px 44px 32px;
@@ -692,14 +850,41 @@ footer {
 
 }
 
-@media (max-width: 1324px) and (min-width: 1322px) {
+/*@media (max-width: 1322px) and (min-width: 1168px) {*/
 
-    .menu li a {
-        padding: 44px 32px 44px 32px;
-    }
+/*    .menu li a {*/
+/*        padding: 44px 32px 44px 32px;*/
+/*    }*/
+
+/*    .hero-banner {*/
+/*        background-image: url("../assets/hero-desktop-sm.png");*/
+/*    }*/
+
+/*}*/
+
+@media (min-width: 1496px) {
 
     .hero-banner {
-        background-image: url("../assets/hero-desktop-m.png");
+        background-repeat: no-repeat;
+        background-size: unset;
+        background-position: center;
     }
 
+    .header {
+        max-width: 1600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main {
+        max-width: 1496px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu li a {
+
+        padding: 44px 44px 44px 44px;
+
+    }
 }

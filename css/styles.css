@@ -368,7 +368,25 @@ footer {
     height: 36px;
 }
 
-@media (max-width: 335px) {
+@media (max-width: 364px) {
+
+    .hero-banner {
+        padding: 236px 32px 32px 32px;
+    }
+
+    .main h2 {
+        font-size: 20px;
+    }
+
+    .main p {
+        font-size: 16px;
+    }
+
+    .btn-learn-more {
+        width: 139px;
+        height: 48px;
+        font-size: 16px;
+    }
 
     .enter-mail-section {
         display: flex;
@@ -448,6 +466,10 @@ footer {
 
     .logo a img {
         padding: 0;
+    }
+
+    .hero-banner {
+        padding: 204px 32px 32px 32px;
     }
 
     footer {
@@ -563,6 +585,14 @@ footer {
 
 }
 
+@media (min-width: 364px) and (max-width: 515px) {
+
+    .hero-banner {
+        padding: 336px 92px 32px 92px;
+    }
+
+}
+
 @media (max-width: 515px) {
 
     .main {
@@ -574,7 +604,31 @@ footer {
 @media (min-width: 515px) and (max-width: 773px) {
 
     .main {
-        height: 1180px;
+        height: 1090px;
+    }
+
+}
+
+@media (min-width: 515px) and (max-width: 600px) {
+
+    .hero-banner {
+        padding: 392px 92px 32px 92px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .hero-banner {
+        background-image: url("../assets/hero-mobile-600px.png");
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 781px) {
+
+    .hero-banner {
+        background-image: url("../assets/mobile-hero-m.png");
+        padding: 297px 92px 32px 92px;
     }
 
 }
@@ -582,9 +636,40 @@ footer {
 @media (max-width: 781px) {
 
     .hero-banner {
-        background-image: url("../assets/mobile-hero-m.png");
+        /*background-image: url("../assets/mobile-hero-m.png");*/
         background-size: contain;
         background-repeat: no-repeat;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .hero-text p {
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .hero-text {
+        color: var(--text-color);
+        width: 100%;
+    }
+
+    .btn-get-tickets {
+        margin-left: auto;
+        margin-right: auto;
+        width: 135px;
+        height: 48px;
+        font-size: 16px;
+    }
+
+    .main h2 {
+        font-size: 20px;
+    }
+
+    .main p {
+        font-size: 16px;
     }
 
 }
@@ -655,7 +740,8 @@ footer {
 
 }
 
-@media (min-width: 780px) and (max-width: 908px) {
+@media (min-width: 781px) and (max-width: 908px) {
+
     .hero-text {
         width: 300px;
     }
@@ -678,6 +764,7 @@ footer {
     .hero-banner {
         padding: 76px 750px 50px 155px;
     }
+
 }
 
 

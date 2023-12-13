@@ -6,6 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="fa1eb06f-3f74-4d23-a686-cf9041ca9ffe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/hero-desktop-l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/hero-desktop-m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/hero-desktop-s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/hero-mobile-600px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/hero-tablet-micro-xs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/hero-tablet-micro-xxs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/hero-tablet-micro-xxxs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/hero-tablet-micro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mobile-hero-m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mobile-hero-x1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mobile-hero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/x2x.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +83,8 @@
       <workItem from="1702144241868" duration="32209000" />
       <workItem from="1702285817530" duration="21809000" />
       <workItem from="1702391694107" duration="25277000" />
-      <workItem from="1702461649799" duration="13677000" />
+      <workItem from="1702461649799" duration="13773000" />
+      <workItem from="1702501495734" duration="3881000" />
     </task>
     <servers />
   </component>

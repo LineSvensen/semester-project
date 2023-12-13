@@ -47,7 +47,6 @@ header {
     align-items: center;
     background: var(--background-white);
     padding-right: 112px;
-    /* was 25px*/
     transition: 0.3s;
 }
 
@@ -598,13 +597,13 @@ footer {
 
 @media (max-width: 600px) {
     .hero-banner {
-        background-image: url("../assets/hero-mobile-600px.png");
+        background-image: url("../assets/hero-mobile-xsm.png");
     }
 }
 
 @media (min-width: 600px) and (max-width: 781px) {
     .hero-banner {
-        background-image: url("../assets/mobile-hero-m.png");
+        background-image: url("../assets/hero-mobile-m.png");
         padding: 297px 92px 32px 92px;
     }
 }
@@ -710,7 +709,6 @@ footer {
 @media (min-width: 781px) and (max-width: 820px) {
     .so-media-icons {
         padding: 0 150px 0 150px;
-        grid-area: middle;
     }
 }
 
@@ -785,6 +783,34 @@ footer {
         margin-right: auto;
         margin-top: 8px;
     }
+
+    .cards img {
+        width: 212px;
+        height: 212px;
+    }
+
+    .cards {
+        width: 212px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 48px;
+    }
+
+    .main h2 {
+        font-size: 24px;
+    }
+
+    .main p {
+        font-size: 20px;
+    }
+
+    .card-1, .card-2, .card-3 {
+        width: 212px;
+        padding-top: 32px;
+    }
 }
 
 @media (min-width: 830px) and (max-width: 983px) {
@@ -848,24 +874,18 @@ footer {
         width: 400px;
     }
 
+    .hero-text p {
+        padding-top: 8px;
+    }
+
     .hero-text h1 {
         padding-bottom: 0;
         padding-top: 24px;
         font-size: 36px;
     }
 
-    .hero-text p {
-        padding-top: 8px;
-    }
-
     .btn-get-tickets {
         margin: 8px 0 62px 114px;
-    }
-}
-
-@media (min-width: 1100px) and (max-width: 1168px) {
-    .hero-banner {
-        background-image: url("../assets/hero-desktop-xs.png");
     }
 }
 

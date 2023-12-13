@@ -140,6 +140,11 @@ header {
     right: 0;
 }
 
+main {
+
+    background-color: #842F70;
+}
+
 footer {
     width: 100%;
 }

@@ -163,6 +163,7 @@ header {
     margin-top: 32px;
     /*width: 1215px;*/
     /*height: 975px;*/
+    /* for mobile: table-column*/
 }
 
 h1 {
@@ -180,6 +181,8 @@ h2 {
     padding: 0 40px 20px 40px;
     gap: 40px;
     align-items: center;
+    text-align: center;
+    justify-content: space-between;
 }
 
 .row-1 hr {

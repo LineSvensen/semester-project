@@ -15,6 +15,11 @@
     --click-orange: #E57C00;
     --footer-color: #EBD3F7;
     --background-white: #FFFFFF;
+    --grey: #E6E6E6;
+}
+
+.btn-submit-email, .btn-learn-more, .btn-get-tickets {
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 
 .logo img {
@@ -37,6 +42,7 @@ header {
     position: relative;
     justify-content: space-between;
     width: 100%;
+    height: 112px;
     align-items: center;
     background: var(--background-white);
     padding-right: 112px;
@@ -73,7 +79,7 @@ header {
 }
 
 .menu li a:hover {
-    box-shadow: 0 -2px 0 var(--cta-purple) inset;
+    box-shadow: 0 -4px 0 var(--cta-purple) inset;
 }
 
 .hamburger {
@@ -140,9 +146,104 @@ header {
     right: 0;
 }
 
-main {
+.main {
+    width: 100%;
+    background: linear-gradient(45deg, #5F2DA8,#BB429F,#BB429F,#FAC01F,#5F2DA8,#BB429F,#FD0F77,#DC6CC2,#5F2DA8,#BB429F);
+    background-size: 300% 300%;
+    animation: color 24s ease-in-out infinite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-    background-color: #842F70;
+@keyframes color {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+h1 {
+    font-size: 40px;
+    color: var(--background-white);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.cards {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    color: var(--background-white);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 84px;
+}
+
+.cards h2 {
+    font-size: 32px;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 325px;
+}
+
+.cards p {
+    font-size: 20px;
+    padding-bottom: 20px;
+    width: 325px;
+}
+
+.btn-get-tickets {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--cta-purple);
+    border: 4px solid var(--background-white);
+    border-radius: 8px;
+    width: 159px;
+    height: 62px;
+    font-size: 20px;
+    color: var(--background-white);
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    cursor: pointer;
+}
+
+.btn-get-tickets:hover {
+    background-color: var(--hover-purple);
+}
+
+.btn-get-tickets a {
+    color: var(--background-white);
+    text-decoration: none;
+}
+
+.go-back {
+    margin-bottom: 32px;
+}
+
+.go-back a {
+    color: var(--background-white);
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 0 32px 112px;
+}
+
+.go-back a:hover {
+    color: var(--text-color);
 }
 
 footer {
@@ -200,19 +301,27 @@ footer {
     height: 36px;
 }
 
-/* Small (xxs) SCREENS UNDER THIS WIDTH */
-@media (max-width: 450px) {
+@media (max-width: 364px) {
+    .so-media-icons {
+        grid-area: middle;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
+    .so-media-icons img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 450px) {
     .header {
         width: 100%;
     }
 
     .logo a img {
         padding: 0;
-    }
-
-    footer {
-        width: 100%;
     }
 
     .main-footer {
@@ -236,14 +345,12 @@ footer {
     }
 
     .footer-text {
-        display: flex;
-        flex-direction: row;
+        gap: 16px;
+    }
+
+    .footer-text p {
         font-size: 16px;
-        text-align: center;
-        align-items: center;
-        grid-area: top;
-        gap: 20px;
-        padding-top: 0;
+        gap: 4px;
     }
 
     .so-media-icons {
@@ -261,13 +368,25 @@ footer {
     }
 }
 
-@media (max-width: 820px) {
-
-
-    footer {
-        width: 100%;
+@media (min-width: 450px) and (max-width: 781px) {
+    .so-media-icons {
+        padding: 0 150px 0 116px;
     }
+}
 
+@media (max-width: 780px) {
+    .footer-text {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 781px) and (max-width: 820px) {
+    .so-media-icons {
+        padding: 0 150px 0 150px;
+    }
+}
+
+@media (max-width: 820px) {
     .main-footer {
         display: grid;
         width: 100%;
@@ -284,14 +403,21 @@ footer {
         grid-area: bottom;
     }
 
-    .logo-and-copyright img {
-
-    }
-
     .logo-and-copyright p {
         font-size: 14px;
     }
 
+    .so-media-icons img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 781px) and (max-width: 830px) {
     .footer-text {
         display: flex;
         flex-direction: row;
@@ -300,22 +426,9 @@ footer {
         align-items: center;
         grid-area: top;
     }
-
-    .so-media-icons {
-        padding: 0 150px 0 150px;
-        grid-area: middle;
-
-    }
-
-    .so-media-icons img {
-        width: 36px;
-        height: 36px;
-    }
-
 }
 
 @media (max-width: 1030px) {
-
     .header {
         padding: 16px 40px;
     }
@@ -342,6 +455,7 @@ footer {
         padding-top: 134px;
         border-radius: 0 0 0 8px;
         z-index: 2;
+        box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
     }
 
     .menu li {
@@ -353,20 +467,45 @@ footer {
         font-size: 16px;
         box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
     }
-
 }
 
-@media (max-width: 1100px) and (min-width: 983px) {
-
+@media (min-width: 983px) and (max-width: 1168px) {
     .menu li a {
         padding: 16px;
     }
 }
 
-@media (max-width: 1324px) {
+@media (max-width: 1142px) {
+    .cards {
+        gap: 32px;
+        margin: 0 100px 0 100px;
+    }
 
+    .btn-get-tickets {
+        margin-top: 32px;
+        margin-bottom: 40px;
+    }
+
+    .go-back, .go-back a {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1168px) and (max-width: 1322px) {
     .menu li a {
         padding: 44px 32px 44px 32px;
     }
+}
 
+@media (min-width: 1496px) {
+    .header {
+        max-width: 1600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu li a {
+        padding: 44px;
+    }
 }

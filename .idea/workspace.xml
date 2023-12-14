@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fa1eb06f-3f74-4d23-a686-cf9041ca9ffe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/theexperience.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theexperience.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theexperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/theexperience.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "experience-page",
+    "git-widget-placeholder": "tickets-page",
     "last_opened_file_path": "C:/Users/lines/OneDrive/Documents/Repos/semester-project",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -73,7 +71,7 @@
       <workItem from="1702285817530" duration="21809000" />
       <workItem from="1702391694107" duration="25277000" />
       <workItem from="1702461649799" duration="13773000" />
-      <workItem from="1702501495734" duration="22198000" />
+      <workItem from="1702501495734" duration="23850000" />
     </task>
     <servers />
   </component>

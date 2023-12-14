@@ -146,15 +146,72 @@ header {
     right: 0;
 }
 
+.main {
+    width: 100%;
+    background: linear-gradient(45deg, #5F2DA8,#BB429F,#BB429F,#FAC01F,#5F2DA8,#BB429F,#FD0F77,#DC6CC2,#5F2DA8,#BB429F);
+    background-size: 300% 300%;
+    animation: color 24s ease-in-out infinite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@keyframes color {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+h1 {
+    font-size: 40px;
+    color: var(--background-white);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.cards {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    color: var(--background-white);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 84px;
+}
+
+.cards h2 {
+    font-size: 32px;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 325px;
+}
+
+.cards p {
+    font-size: 20px;
+    padding-bottom: 20px;
+    width: 325px;
+}
+
 .btn-get-tickets {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin: 20px 0 62px 165px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: var(--cta-purple);
-    border: none;
+    border: 4px solid var(--background-white);
     border-radius: 8px;
     width: 159px;
     height: 62px;
@@ -167,6 +224,21 @@ header {
 
 .btn-get-tickets:hover {
     background-color: var(--hover-purple);
+}
+
+.go-back {
+    margin-bottom: 32px;
+}
+
+.go-back a {
+    color: var(--background-white);
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 0 32px 112px;
+}
+
+.go-back a:hover {
+    color: var(--text-color);
 }
 
 footer {
@@ -223,8 +295,6 @@ footer {
     width: 36px;
     height: 36px;
 }
-
-/* ---------------media----------*/
 
 @media (max-width: 364px) {
     .so-media-icons {
@@ -293,15 +363,15 @@ footer {
     }
 }
 
-@media (max-width: 780px) {
-    .footer-text {
-        font-size: 16px;
-    }
-}
-
 @media (min-width: 450px) and (max-width: 781px) {
     .so-media-icons {
         padding: 0 150px 0 116px;
+    }
+}
+
+@media (max-width: 780px) {
+    .footer-text {
+        font-size: 16px;
     }
 }
 
@@ -397,6 +467,23 @@ footer {
 @media (min-width: 983px) and (max-width: 1168px) {
     .menu li a {
         padding: 16px;
+    }
+}
+
+@media (max-width: 1142px) {
+    .cards {
+        gap: 32px;
+        margin: 0 100px 0 100px;
+    }
+
+    .btn-get-tickets {
+        margin-top: 32px;
+        margin-bottom: 40px;
+    }
+
+    .go-back, .go-back a {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 

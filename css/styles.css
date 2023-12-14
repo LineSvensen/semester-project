@@ -20,7 +20,6 @@
 
 .btn-submit-email, .btn-learn-more, .btn-get-tickets {
     box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-    /*box-shadow: 2px 4px 0 0 var(--click-purple);*/
 }
 
 .logo img {
@@ -373,8 +372,6 @@ footer {
     width: 36px;
     height: 36px;
 }
-
-/* ---------------media----------*/
 
 @media (max-width: 364px) {
     .hero-banner {

@@ -226,6 +226,11 @@ h1 {
     background-color: var(--hover-purple);
 }
 
+.btn-get-tickets a {
+    color: var(--background-white);
+    text-decoration: none;
+}
+
 .go-back {
     margin-bottom: 32px;
 }

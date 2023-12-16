@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa1eb06f-3f74-4d23-a686-cf9041ca9ffe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/ourstory.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ourstory.css" afterDir="false" />
-    </list>
+    <list default="true" id="fa1eb06f-3f74-4d23-a686-cf9041ca9ffe" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "story-page",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/lines/OneDrive/Documents/Repos/semester-project",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -74,7 +71,7 @@
       <workItem from="1702461649799" duration="13773000" />
       <workItem from="1702501495734" duration="24238000" />
       <workItem from="1702582689977" duration="13017000" />
-      <workItem from="1702636113717" duration="46804000" />
+      <workItem from="1702636113717" duration="47259000" />
     </task>
     <servers />
   </component>

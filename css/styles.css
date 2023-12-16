@@ -466,12 +466,16 @@ footer {
         width: 100%;
     }
 
+    h1 {
+        font-size: 32px;
+    }
+
     .logo a img {
         padding: 0;
     }
 
     .hero-banner {
-        padding: 204px 32px 32px 32px;
+        padding: 236px 32px 32px 32px;
     }
 
     .main-footer {
@@ -614,7 +618,7 @@ footer {
     }
 
     h1 {
-        font-size: 24px;
+        font-size: 32px;
     }
 
     .hero-text p {

@@ -438,7 +438,9 @@ h3 {
 }
 
 .go-back {
-    margin: 32px;
+    margin: 32px 0 32px 112px;
+    padding-left: 16px;
+    width: 100%;
 }
 
 .go-back a {
@@ -579,13 +581,13 @@ footer {
     }
 }
 
-@media (max-width: 610px) {
+@media (max-width: 653px) {
     .footer-text {
         font-size: 16px;
     }
 
     h1 {
-        font-size: 20px;
+        font-size: 32px;
         padding: 8px 0 8px 8px;
         margin-top: 16px;
         width: 360px;
@@ -611,11 +613,11 @@ footer {
 
     .row-1 {
         padding-left: 16px;
-        height: 456px;
         justify-content: space-between;
-        margin-top: 14px;
         display: flex;
         flex-wrap: wrap;
+        height: 465px;
+        margin-top: 25px;
     }
 
     .row-2 {
@@ -634,15 +636,17 @@ footer {
     }
 
     .row-4 {
-        height: 462px;
-        margin-bottom: 16px;
         display: flex;
         flex-wrap: wrap;
+        height: 466px;
+        margin-bottom: 15px;
     }
 
     .row-5 {
+        margin-bottom: -5px;
+        justify-content: space-between;
         padding-right: 16px;
-        height: 440px;
+        height: 446px;
         display: flex;
         flex-wrap: wrap;
     }
@@ -758,13 +762,13 @@ footer {
     }
 }
 
-@media (min-width: 610px) and (max-width: 780px) {
+@media (min-width: 653px) and (max-width: 929px) {
     .footer-text {
         font-size: 16px;
     }
 
     h1 {
-        font-size: 24px;
+        font-size: 32px;
         padding: 16px 0 16px 16px;
         margin-top: 16px;
     }
@@ -788,27 +792,30 @@ footer {
 
     .row-1 {
         padding-left: 16px;
-        height: 440px;
+        height: 450px;
         justify-content: space-between;
-        margin-top: 4px;
+        margin-top: 26px;
     }
 
     .row-2 {
-        height: 440px;
+        height: 480px;
+        margin-bottom: -58px;
     }
 
     .row-3 {
-        height: 440px;
+        height: 422px;
+        margin-bottom: 8px;
     }
 
     .row-4 {
-        height: 440px;
-        margin-bottom: 16px;
+        height: 443px;
+        margin-bottom: 23px;
     }
 
     .row-5 {
         padding-right: 16px;
-        height: 440px;
+        height: 444px;
+        padding-bottom: 8px;
     }
 
     .btn-add-to-cart {
@@ -818,8 +825,8 @@ footer {
     }
 
     #amount1, #amount2, #amount3, #amount4, #amount5, #amount6, #amount7 {
-        width: 52px;
-        height: 48px;
+        width: 43px;
+        height: 40px;
         font-size: 16px;
         padding: 8px;
     }

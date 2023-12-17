@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fa1eb06f-3f74-4d23-a686-cf9041ca9ffe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/success.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/success.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/registermail.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/registermail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registermail.html" beforeDir="false" afterPath="$PROJECT_DIR$/registermail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "success-page",
+    "git-widget-placeholder": "register-mail-page",
     "last_opened_file_path": "C:/Users/lines/OneDrive/Documents/Repos/semester-project",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -76,7 +76,7 @@
       <workItem from="1702501495734" duration="24238000" />
       <workItem from="1702582689977" duration="13017000" />
       <workItem from="1702636113717" duration="53424000" />
-      <workItem from="1702822014975" duration="23676000" />
+      <workItem from="1702822014975" duration="26989000" />
     </task>
     <servers />
   </component>

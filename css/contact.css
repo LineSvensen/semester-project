@@ -152,7 +152,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("../assets-200kb/museum-building.jpg");
+    background-image: url("../assets/background-museum.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 572px;
@@ -180,7 +180,7 @@ header {
 }
 
 .section-2 img, .section-3 img {
-    margin-top: 32px;
+    margin-top: 20px;
     width: 90px;
     height: 90px;
 }
@@ -190,6 +190,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background-color: var(--black);
     color: var(--background-white);
     height: 100%;
@@ -216,10 +217,8 @@ h2 {
     color: var(--black);
     font-weight: normal;
     width: 228px;
-    padding-top: 20px;
+    padding: 20px 0 20px 0;
 }
-
-
 
 h1 {
     font-size: 40px;
@@ -236,7 +235,7 @@ iframe {
 }
 
 .go-back a {
-    color: var(--background-white);
+    color: var(--cta-purple);
     font-size: 20px;
     text-decoration: none;
     margin: 0 0 32px 112px;
@@ -367,19 +366,23 @@ footer {
         height: 36px;
     }
 
-    .go-back a {
-        color: var(--text-color);
+    iframe {
+        width: 300px;
+        height: 200px;
     }
-
-    .go-back a:hover {
-        color: var(--hover-purple);
-    }
-
 }
 
 @media (min-width: 450px) and (max-width: 781px) {
     .so-media-icons {
         padding: 0 150px 0 116px;
+    }
+}
+
+@media (max-width: 683px) {
+    .section-2 {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
     }
 }
 
@@ -486,7 +489,9 @@ footer {
 
 @media (max-width: 1142px) {
     .go-back, .go-back a {
-        margin-left: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
     }
 }
 

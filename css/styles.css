@@ -149,7 +149,7 @@ header {
 .hero-banner {
     display: flex;
     flex-direction: column;
-    background-image: url("../assets/hero-desktop.png");
+    background-image: url("../assets-200kb/hero-desktop-m-200kb.jpg");
     height: 400px;
     background-size: cover;
     padding: 80px 0 0 220px;
@@ -598,13 +598,13 @@ footer {
 
 @media (max-width: 600px) {
     .hero-banner {
-        background-image: url("../assets/hero-mobile-xsm.png");
+        background-image: url("../assets-200kb/hero-mobile-xxs-200kb.jpg");
     }
 }
 
 @media (min-width: 600px) and (max-width: 781px) {
     .hero-banner {
-        background-image: url("../assets/hero-mobile-m.png");
+        background-image: url("../assets-200kb/hero-mobile-m-200kb.jpg");
         padding: 297px 92px 32px 92px;
     }
 }
@@ -761,7 +761,7 @@ footer {
 
 @media (min-width: 781px) and (max-width: 983px) {
     .hero-banner {
-        background-image: url("../assets/hero-tablet.png");
+        background-image: url("../assets-200kb/hero-tablet-xs-200kb.jpg");
     }
 
     .hero-text {
@@ -863,7 +863,7 @@ footer {
 
 @media (min-width: 983px) and (max-width: 1168px) {
     .hero-banner {
-        background-image: url("../assets/hero-desktop-xs.png");
+        background-image: url("../assets-200kb/hero-desktop-xxs-200kb.jpg");
         padding: 94px 0 0 197px;
     }
 
@@ -904,7 +904,7 @@ footer {
     }
 
     .hero-banner {
-        background-image: url("../assets/hero-desktop-sm.png");
+        background-image: url("../assets-200kb/hero-desktop-sm-200kb.jpg");
     }
 }
 

@@ -230,15 +230,6 @@ h1 {
     background-color: var(--hover-purple);
 }
 
-/*.btn-notify-me-button {*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    margin-left: auto;*/
-/*    margin-right: auto;*/
-/*}*/
-
 .go-back {
     margin-bottom: 32px;
 }
@@ -399,7 +390,6 @@ footer {
     .go-back a:hover {
         color: var(--hover-purple);
     }
-
 }
 
 @media (min-width: 450px) and (max-width: 781px) {

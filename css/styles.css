@@ -183,10 +183,14 @@ h1 {
     width: 159px;
     height: 62px;
     font-size: 20px;
-    color: var(--background-white);
     font-weight: bold;
     letter-spacing: 0.4px;
     cursor: pointer;
+}
+
+.btn-get-tickets a {
+    text-decoration: none;
+    color: var(--background-white);
 }
 
 .btn-get-tickets:hover {

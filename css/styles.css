@@ -611,13 +611,13 @@ footer {
 
 @media (max-width: 600px) {
     .hero-banner {
-        background-image: url("../assets-200kb/hero-mobile-xxs-200kb.jpg");
+        background-image: url("../assets-200kb/hero-mobile-xxs-200kba.webp");
     }
 }
 
 @media (min-width: 600px) and (max-width: 781px) {
     .hero-banner {
-        background-image: url("../assets-200kb/hero-mobile-m-200kb.jpg");
+        background-image: url("../assets-200kb/hero-mobile-m-200kba.webp");
         padding: 297px 92px 32px 92px;
     }
 }
@@ -774,7 +774,7 @@ footer {
 
 @media (min-width: 781px) and (max-width: 983px) {
     .hero-banner {
-        background-image: url("../assets-200kb/hero-tablet-xs-200kb.jpg");
+        background-image: url("../assets-200kb/hero-tablet-xs-200kba.webp");
     }
 
     .hero-text {
@@ -926,6 +926,7 @@ footer {
         background-repeat: no-repeat;
         background-size: unset;
         background-position: center;
+        padding-left: 17%;
     }
 
     .header {

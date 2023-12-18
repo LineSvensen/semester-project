@@ -32,19 +32,19 @@ The webpage consists of 9 pages in total. The site works smoothly on different d
 
 ## Design Approach 🎨
 
-The initial idea was to create an appealing site for children without making it overly childish, considering that parents primarily navigate and purchase tickets through the platform. After experimenting with various color palettes, I settled on a sophisticated yet fun combination of different shades of purple, purple-blue, rose-pink, yellow, and hints of orange for buttons. The color scheme aims to strike a balance between seriousness and vibrancy.
+The initial idea was to create a modern-looking website for children without making it overly childish, considering that parents primarily navigate the site and purchase tickets. I chose the colors purple and blue-purple in different shades to make the design sophisticated yet fun.
 
 ## Inspirations 👀
 
-Inspiration for this project was drawn from various sources including Paradox Museum Oslo, ChildSci, Teknisk Museum, and Nasjonalmuseet. While these sites mostly facilitated ticket sales within their physical locations, my goal was to implement an online ticketing system for a seamless user experience.
+I got some inspiration from websites like Paradox Museum Oslo, ChildSci, Teknisk Museum, and Nasjonalmuseet. While these sites mostly facilitated ticket sales within their physical locations, my goal was to implement an online ticketing system.
 
 ## Development Process 💻
 
-Originally planned for one week of design and three weeks of coding, the project timeline shifted to two weeks each for design and coding. I prioritized modern design elements and responsiveness, ensuring the site functions smoothly across various devices through extensive media queries. Optimizing image sizes to keep them under 200kb was essential for optimal site performance.
+Originally planned for one week of design and three weeks of coding, the project timeline shifted to two weeks each for design and coding. I prioritized responsiveness, ensuring the site functions smoothly across various devices through extensive media queries. Optimizing image sizes to keep them under 200kb was essential for optimal site performance.
 
 ## Lessons Learned 📈
 
-One of the primary challenges encountered revolved around understanding the dynamics of kids' science museums and their offerings. Leveraging memories of interactive experiences from my own childhood, I focused on highlighting these elements on the website while striking a balance between information and simplicity.Throughout this project, I learned the ease of implementing seemingly complex features. For instance, integrating a Google Map was as simple as copying and pasting google’s code. Utilizing grid layouts alongside flexbox improved the overall design flexibility. Consolidating common CSS elements like the navigation and footer into a single CSS file significantly streamlined the project and is a practice I aim to implement in future projects.Future improvements will include refining alignment on certain pages, especially when scaling down, and enhancing the "Tickets" and "Cart" pages for better alignment and user experience.
+One of the primary challenges encountered revolved around understanding the dynamics of kids' science museums and their offerings. Leveraging memories of interactive experiences from my own childhood, I focused on highlighting these elements on the website while striking a balance between information and simplicity. Throughout this project, I learned the ease of implementing seemingly complex features. For instance, integrating a Google Map was as simple as copying and pasting google’s code. Utilizing grid layouts alongside flexbox improved the overall design flexibility. Consolidating common CSS elements like the navigation and footer into a single CSS file significantly streamlined the project and is a practice I aim to implement in future projects.Future improvements will include refining alignment on certain pages, especially when scaling down, and enhancing the "Tickets" and "Cart" pages for better alignment and user experience.
 
 ### Link to website : [semester-project-xi.vercel.app](semester-project-xi.vercel.app)
 

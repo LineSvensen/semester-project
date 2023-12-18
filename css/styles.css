@@ -259,6 +259,15 @@ h1 {
     border: 4px solid var(--hover-purple);
 }
 
+.btn-learn-more a {
+    color: var(--cta-purple);
+    text-decoration: none;
+}
+
+.btn-learn-more a:hover {
+    color: var(--hover-purple);
+}
+
 hr {
     background-color: var(--cta-purple);
     opacity: 50%;
